@@ -1,4 +1,5 @@
 /app/config/parameters.yml
+/app/config30/parameters.yml
 /build/
 /phpunit.xml
 /var/*
@@ -15,3 +16,4 @@
 /vendor/
 /web/bundles/
 nbproject/
+.DS_store
