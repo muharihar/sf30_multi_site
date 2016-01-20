@@ -1,11 +1,11 @@
 <?php defined('MULTISITE') OR exit('No direct script access allowed');
 
 // online demo: 
-// -
+// - "sfm" for "*.sfm.github.mhs.web.id"
 // local demo: 
 // - "sf" for "*.sf.scm.dev.tut", 
 // - "scm" for "*.scm.dev.tut"
-$_MULTISITE_PREFIX = array('sf', 'scm');
+$_MULTISITE_PREFIX = array('sfm','sf', 'scm');
 
 //define multisite path
 define('MULTISITE_PATH', __DIR__ . '/../multisite/');
