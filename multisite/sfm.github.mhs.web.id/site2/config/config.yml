@@ -29,6 +29,7 @@ framework:
     session:
         # handler_id set to null will use default session handler from php.ini
         #handler_id:  ~
+        #save_path:   "%kernel.root_dir%/../var/sessions/%kernel.environment%"
         #file session
         #handler_id: session.handler.native_file
         #save_path: '%kernel.session_path%/sessions/%multisite_domain%/'
@@ -36,6 +37,7 @@ framework:
         handler_id: session.handler.pdo
     fragments:       ~
     http_method_override: true
+    assets: ~
 
 # Twig Configuration
 twig:

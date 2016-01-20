@@ -12,12 +12,12 @@ services:
         class:   AppBundle\Handler\DatabaseSessionHandler  
         public:    true
         arguments:
-            - 'mysql:host=127.0.0.1;port=3316;dbname=rnd_symfony_site2'
+            - 'mysql:host=127.0.0.1;port=3316;dbname=rnd_symfony_site1'
             - { db_username: rnd, db_password: rnd }
     session.handler.pdo.dev:
         #class:     Symfony\Component\HttpFoundation\Session\Storage\Handler\PdoSessionHandler
         class:   AppBundle\Handler\DatabaseSessionHandler  
         public:    true
         arguments:
-            - 'mysql:host=127.0.0.1;port=3316;dbname=rnd_symfony_site2_dev'
+            - 'mysql:host=127.0.0.1;port=3316;dbname=rnd_symfony_site1_dev'
             - { db_username: rnd, db_password: rnd }

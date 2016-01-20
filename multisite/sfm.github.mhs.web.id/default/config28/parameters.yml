@@ -9,7 +9,7 @@ parameters:
     mailer_host: 127.0.0.1
     mailer_user: null
     mailer_password: null
-    secret: 40c13f12b1c5d1decb5a86cf73b4eab408775e44
+    secret: 018317695accce42816a61405fce7ef3eb2a1deb
 
     #multisite
-    site_name: SITE 1
+    site_name: Default
